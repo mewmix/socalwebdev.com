@@ -1,32 +1,40 @@
 body {
   background-color: #000000;
-}
-
-p {
+  }
+  
+  p {
   display: inline;
-}
-
-a,
-a:hover {
+  }
+  
+  a,
+  a:hover {
   color: white;
   text-decoration: none;
-}
-
-.console {
+  }
+  
+  .console {
   font-family: monospace;
-  font-size: 9pt;
+  font-size: 1.5em; /* Use relative units */
   color: white;
   border: none;
   padding: 0px;
   outline: none;
-}
-
-#terminal {
+  }
+  
+  #terminal {
   font-family: monospace;
-  font-size: 9pt;
+  font-size: 1.5em; /* Use relative units */
   color: white;
   background: #000000;
   border: none;
   padding: 0px;
   outline: none;
-}
+  }
+  
+  /* Media queries for smaller screens */
+  @media (max-width: 767px) {
+  .console,
+  #terminal {
+  font-size: 1em;
+  }
+  }

@@ -81,7 +81,11 @@ case 'EXPERIENCE':
   break;
 
 case 'PROJECTS':
-  result = result + 'COMING SOON';
+  result = result + '<br> <a href="https://github.com/mewmix/llama-index-flask-demo" onclick="window.open(this.href); return false;">Flask - Open AI GPT File & Twitter Search App &larr;</a><br>\
+  <a href="https://github.com/mewmix/Vyper-Experiments" onclick="window.open(this.href); return false;">Vyper Rock Paper Scissors Smart Contract &larr;</a><br>\
+  <a href="https://github.com/mewmix/eth_block_bot_tg" onclick="window.open(this.href); return false;">Ethereum Time / Block Search &larr;</a><br>\
+  <a href="https://github.com/mewmix/CryptoDashboard" onclick="window.open(this.href); return false;">Personal Dashboard for Linux/Unix systems &larr;</a><br>\
+  <a href="https://www.socalwebdev.com" onclick="window.open(this.href); return false;">Website &larr;</a><br>';
   break;
 
 case 'exit':

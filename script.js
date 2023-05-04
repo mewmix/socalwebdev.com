@@ -24,8 +24,7 @@ $(document).keyup(
 										PERSONALINFO &nbsp&nbsp Display personal information.<br>\
 										EXPERIENCE &nbsp&nbsp Display experience.<br>\
 										CLEAR &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Clear the console.<br>\
-										LINKS &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Display social media links.<br>\
-										PROJECTS &nbsp&nbsp&nbsp&nbsp Display a list of projects that the website creator has worked on.<br>';
+										PROJECTS &nbsp&nbsp&nbsp&nbsp Display a list of projects that I want to show off.<br>';
         break;
 
  
@@ -35,10 +34,10 @@ $(document).keyup(
 											&nbsp&nbspEnglish: Written & Oral<br>\
 &nbsp&nbspMandarin Chinese: Written & Oral<br>\
 										PROGRAMMING LANGUAGES:<br>\
-											&nbsp&nbspPython, Rust, GO, HTML, CSS, Javascript, PHP, MySQL/SQL, Solidity, Vyper, <br>\
+											&nbsp&nbspPython, Rust, GO, C, C++, HTML/CSS, Javascript, PHP, MySQL/SQL,  Solidity, Vyper <br>\
 										AI / ML SOFTWARE USED:<br>\
-											&nbsp&nbspHuggingFace, Tortoise, BARK, BERT, ControlNet,  StableDiffusion, Llama, Vicuna, OpenAI GPT3.5 & 4 API<br>\
-										SOFTWARE TESTING:<br>\
+											&nbsp&nbspHuggingFace, Replit, Tortoise, BARK, BERT, ControlNet,  StableDiffusion, Llama, Vicuna, OpenAI GPT3.5 & 4 API<br>\
+										<br>\
 										';
         break;
 
@@ -62,9 +61,9 @@ case 'EXPERIENCE':
                     &nbsp&nbspAssociate Support Engineer at Facings.IO<br>\
                     &nbsp&nbsp&nbsp&nbspFront and back-end development and operational support. Contributed to on-chain deployments of large-scale custom NFT collections & games to market via microsites. Daily work in fast paced environment with an emphasis on Python & JavaScript, Docker, as well as some C++. Deployed React-based applications to AWS S3 via CI pipelines and blockchain specific tools such as Anchor Wallet / Meta Mask, Brownie, Truffle, Web3.js and Web3.py (and eospyo). Performed testing and debugging of the company’s python signing library eospyo(now called pyntelope).<br>\
                     <br>\
-                  August 2019 - August 2022:<br>\
+                  August 2015 - Current:<br>\
                     &nbsp&nbspIndependent Contractor<br>\
-                    &nbsp&nbsp&nbsp&nbspProvided custom technical solutions and support for a broad range of small to medium businesses (SMB). Using a data-driven approach, optimized client websites, web applications and platforms by improving workflows, creating documentation, and refining existing code. Experience with Linux Administration, React, Node.js, Apache, Nginx, AWS, GCP, Azure, IBM cloud, Righetti QVM, Python, Selenium, WordPress, MySQL, NoSQL, GraphQL, SQLite, and more.<br>';
+                    &nbsp&nbsp&nbsp&nbspProvided custom technical solutions and support for a broad range of small to medium businesses (SMB). Using a data-driven approach, optimized client websites, web applications and platforms by improving workflows, creating documentation, and refining existing code. Gained hands-on experience with Linux Administration, React, Node.js, Apache, Nginx, AWS, GCP, Azure, IBM cloud, Righetti QVM, Python, Selenium, WordPress, MySQL, NoSQL, GraphQL, SQLite, and more.<br>';
   break;
 
 
@@ -76,16 +75,13 @@ case 'EXPERIENCE':
   result = result + '<br> <a href="https://www.linkedin.com/in/alexanderjamesklein/" onclick="window.open(this.href); return false;">LinkedIn &larr;</a><br>\
             <a href="https://github.com/mewmix" onclick="window.open(this.href); return false;">GitHub &larr;</a><br>\
             <a href="https://twitter.com/mylife4thehorde" onclick="window.open(this.href); return false;">Twitter &larr;</a><br>\
-            <a href="https://t.me/s/ze_rg" onclick="window.open(this.href); return false;">Telegram &larr;</a><br>\
-
+            <a href="https://t.me/ze_rg" onclick="window.open(this.href); return false;">Telegram &larr;</a><br>\
             <a href="https://staging.bsky.app/profile/socalwebdev.com" onclick="window.open(this.href); return false;">BlueSky &larr;</a><br>\
             <a href="https://www.socalwebdev.com" onclick="window.open(this.href); return false;">Website &larr;</a><br>';
   break;
 
 case 'PROJECTS':
-  result = result + '<br> Sample project 1<br>\
-            Sample project 2<br>\
-            Sample project 3<br>';
+  result = result + 'COMING SOON';
   break;
 
 case 'exit':

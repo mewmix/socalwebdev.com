@@ -1,40 +1,43 @@
 body {
   background-color: #000000;
-  }
-  
-  p {
+  margin: 0;
+  font-family: monospace;
+  color: white;
+}
+
+p {
   display: inline;
-  }
-  
-  a,
-  a:hover {
+}
+
+a,
+a:hover {
   color: white;
   text-decoration: none;
-  }
-  
-  .console {
-  font-family: monospace;
+}
+
+.console {
   font-size: 1.5em; /* Use relative units */
-  color: white;
-  border: none;
-  padding: 0px;
-  outline: none;
-  }
-  
-  #terminal {
-  font-family: monospace;
-  font-size: 1.5em; /* Use relative units */
+  padding: 10px;
+}
+
+#terminal {
+  font-size: 1.5em; /* Matching the font size with the console */
   color: white;
   background: #000000;
   border: none;
-  padding: 0px;
   outline: none;
-  }
-  
-  /* Media queries for smaller screens */
-  @media (max-width: 767px) {
+}
+
+.version,
+.updates,
+.result,
+.root {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
   .console,
   #terminal {
-  font-size: 1em;
+    font-size: 1em;
   }
-  }
+}
